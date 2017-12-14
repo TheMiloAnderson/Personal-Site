@@ -1,0 +1,424 @@
+.article {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    color: white;
+    height: 35%;
+    width: 24%;
+}
+
+.image {
+    background-image: url(http://www.chunkywhale.com/wp-content/uploads/2017/11/projectone.jpg);
+}
+
+
+.overlay {
+    position: relative;
+}
+
+.overlay:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(23, 22, 22, 0.78);
+}
+
+.overlay:hover:before {
+    display: none;
+}
+
+.article * {
+    position: relative;
+    /* hack */
+}
+
+.projecttitle {
+    font-size: 3em;
+    background-color: rgba(25, 25, 25, 0.88);
+    margin: 0em;
+    padding: 1em .2em;
+}
+
+.projecttitle span {
+    font-size: .5em;
+    color: #847767;
+}
+
+.slidecontainer {
+    margin-top: 3em;
+}
+
+.modalstyle {
+    background-color: #000;
+}
+
+.modalcontainers {
+    margin: 2em 0em;
+}
+
+.projectinfo {
+    width: 60%;
+    padding: 0em 2.25em;
+}
+
+.projectdetails {
+    width: 35%;
+    padding: 0em 2.25em;
+    border-left-style: solid;
+    border-color: #383838;
+    border-width: 1px
+}
+
+.buttondiv2 {
+    padding: 0em;
+    text-align: center;
+}
+
+.button2 {
+    background-color: #383838;
+    font-size: 1.75em;
+    color: #fff;
+}
+
+.button2:hover {
+    background-color: #1f1f1f;
+}
+
+body {
+    background-color: #272727;
+    color: #959494;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.navbarstyle {
+    background-color: #1f1f1f;
+    color: #7f8079;
+    padding: 0em 5em;
+}
+
+.w3-bar .w3-bar-item {
+    font-size: 1.25em;
+}
+
+.w3-button:hover {
+    color: #000!important;
+    background-color: #847767!important;
+}
+
+.highlighttext {
+    color: #847767;
+}
+
+.phighlight {
+    color: #4e4e4e;
+    font-size: 2em;
+    margin: 0em 0em 1em 0em;
+}
+
+.mobile {
+    display: none;
+}
+
+.headertext {
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.threecontainers {
+    padding: 0em 17em;
+}
+
+.projectscontainer {
+    background-color: #383838;
+    padding: .1em 0em;
+    margin: 3em 0em 1em 0em;
+}
+
+.fifty {
+    width: 49%;
+    padding: 0em 2.25em;
+}
+
+.experienceboxes {
+    width: 27%;
+    padding: 0em 2.25em;
+}
+
+
+.leftbox {
+    text-align: right
+}
+
+.leftboxtwo {
+    text-align: right
+}
+
+.rightbox {
+    border-left-style: solid;
+    border-color: dimgrey;
+    border-width: 1px;
+    text-align: left;
+}
+
+.centerbox {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: dimgrey;
+    border-color: dimgrey; 
+    border-width: 1px;
+    text-align: center;
+}
+
+.rightboxtwo {
+    text-align: left;
+}
+
+.technology {
+    background-color: #383838;
+    padding: 2em 4em;
+    margin-top: 2em;
+    text-align: center;
+    color: #888888;
+}
+
+.techtext {
+    font-size: 1.1em;
+}
+
+.one {
+    width: 44%;
+    padding: 0em 2.25em;
+}
+
+.two {
+    width: 25%;
+    padding: 0em 2.25em;
+}
+
+.containercontenth {
+    font-size: 18px;
+}
+
+.photo {
+    width: 100%;
+}
+
+
+.captionbox {
+    background-color: #847767;
+    color: black;
+}
+
+.fourcontainers {
+    text-align: center;
+}
+
+.four {
+    width: 24.8%;
+    display: inline-block;
+}
+
+.educationcontainers {
+    padding: 0em;
+}
+
+.degree {
+    color: #d4d4d4;
+    font-size: 1.5em;
+    margin: 0em;
+}
+
+.major {
+    color: #484848;
+    margin: 0em;
+}
+
+.university {
+    color: #777777;
+    margin: .5em 0em 0em 0em;
+    font-size: 1.1em;
+}
+
+.info {
+    margin: 0em;
+    color: #888888;
+}
+
+.buttondiv {
+    padding: 0em 30em;
+    text-align: center;
+}
+
+.button {
+    background-color: #383838;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #1f1f1f;
+}
+
+.footer {
+    font-size: 15px;
+    padding: .5em 0em;
+    margin-top: 2em;
+    background-color: #1f1f1f;
+}
+
+.footercells {
+    width: 45%;
+}
+
+.leftfootercontent {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.rightfootercontent {
+    text-align: right;
+    margin-right: 1em;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+
+    .threecontainers {
+        padding: 0em 7em;
+    }
+
+    .buttondiv {
+        padding: 0em 17em;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .threecontainers {
+        margin: .25em;
+        padding: 1em;
+    }
+
+    .four {
+        width: 48.8%;
+    }
+
+    .educationcontainers {
+        padding: 0em 3em;
+    }
+
+    .experienceboxes {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .leftboxtwo {
+        text-align: left;
+    }
+
+    .centerbox {
+        text-align: left;
+        margin: 3em 0em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        border-left-style: none;
+        border-right-style: none;
+        border-top-style: solid;
+        border-bottom-style: solid;
+    }
+
+    .article {
+        width: 49%;
+        margin-top: 0.25em;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .threecontainers {
+        margin: 0em;
+        padding: 0em;
+    }
+
+    .one {
+        width: 61%;
+    }
+
+
+    .three {
+        display: none;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .navbarstyle {
+        padding: 0em;
+    }
+
+    .footer {
+        font-size: 13px;
+    }
+
+    .buttondiv {
+        padding: 0em 2em;
+    }
+
+    .headertext {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .three {
+        display: block;
+    }
+
+    .leftbox {
+        text-align: left;
+        margin-bottom: 2em;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .rightbox {
+        border-top-style: solid;
+        border-color: dimgrey;
+        border-width: 1px;
+        text-align: left;
+        padding-top: 2em;
+        border-left-style: none;
+    }
+
+    .projectdetails {
+        padding: .75em 2.25em;
+        margin-top: 1.25em;
+        border-left-style: none;
+        border-top-style: solid;
+        border-color: #383838;
+        border-width: 1px;
+    }
+
+    .educationcontainers {
+        padding: 2em;
+    }
+}
