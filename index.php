@@ -1,8 +1,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="css/w3.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,600" rel="stylesheet">
 </head>
 
@@ -28,21 +29,21 @@
 
     <!-- banner -->
     <div class="w3-mobile bannerwrapper">
-        <img class="photo desktop" src="imgs/banner.jpg">
-        <img class="photo mobile" src="imgs/mobile.jpg">
+        <img class="photo desktop" src="img/banner.jpg">
+        <img class="photo mobile" src="img/mobile.jpg">
     </div>
 
     <!-- heading -->
     <div class="w3-mobile">
-        <div class="w3-mobile sayingcontainer" id="skills">
-            <p class="headertext">about <span class="highlighttext">milo</span></p>
+        <div class="w3-mobile headercontainer">
+            <h1>about <span class="highlighttext">milo</span></h1>
         </div>
     </div>
 
     <!-- three columns -->
-    <div class="w3-mobile w3-cell-row threecontainers">
-        <div class="w3-mobile w3-cell w3-cell one">
-            <p class="phighlight" id="statement">practical design - creative implementation</p>
+    <div class="w3-mobile w3-cell-row about">
+        <div class="w3-mobile w3-cell one">
+            <p class="phighlight">practical design - creative implementation</p>
             <p class="containercontent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis mauris quis est varius hendrerit. Proin pharetra ullamcorper turpis ut blandit. Mauris fermentum nec quam non volutpat. Vestibulum vitae massa pretium, finibus eros nec, luctus diam. Cras lectus dolor, ultricies ut metus eget, faucibus venenatis dui. Praesent gravida lectus ut mauris scelerisque pretium. Pellentesque posuere, urna sit amet feugiat tempor, est neque lobortis mauris, vel feugiat nisi dui vitae mauris. Donec nisi mauris, tincidunt eget metus fringilla, accumsan elementum magna. Praesent sollicitudin tellus porta scelerisque suscipit. Vestibulum arcu elit, dignissim vitae placerat at, mattis nec tortor. Sed aliquam, velit sit amet porta feugiat, ligula ipsum facilisis dolor, eget sagittis purus nibh at metus. Aliquam facilisis placerat pulvinar. Pellentesque accumsan ut nisi sit amet iaculis. Fusce luctus finibus leo non dapibus. Vivamus sollicitudin diam dolor, quis consequat urna commodo sed. Ut nibh dui, bibendum sit amet luctus eu, scelerisque id enim.</p>
         </div>
         <div class="w3-mobile w3-cell w3-cell two">
@@ -50,95 +51,16 @@
             <p class="containercontent">• WordPress & PHP Development<br>• User-Centered Systems Design<br>• Programming/System Management<br>• Leadership and Team Collaborations<br>• Projects and Processes Management<br>• Functionality & System Evaluations</p>
         </div>
         <div class="w3-mobile w3-cell w3-cell-middle three">
-            <img class="photo" src="imgs/phototest-2.jpg">
+            <img class="photo" src="img/phototest-2.jpg">
         </div>
     </div>
 
-    <!-- heading two -->
-    <div class="w3-mobile" id="projects">
-        <div class="w3-mobile sayingcontainer projectscontainer">
-            <p class="headertext">project <span class="highlighttext">portfolio</span></p>
-        </div>
-    </div>
-
-    <!-- test -->
-    <div class="w3-container w3-mobile" style="text-align: center;">
-        <div class="article image overlay" onclick="document.getElementById('id01').style.display='block'">
-            <p class="projecttitle">wordpress</p>
-        </div>
-        <div class="article image overlay">
-            <p class="projecttitle">outlook</p>
-        </div>
-        <div class="article image overlay">
-            <p class="projecttitle">content motive</p>
-        </div>
-        <div class="article image overlay">
-            <p class="projecttitle">financials</p>
-        </div>
-    </div>
-
-    <!-- pop up modal -->
-    <div class="w3-container">
-        <div id="id01" class="w3-modal">
-            <div class="w3-modal-content">
-                <div class="w3-container modalstyle">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                    <!-- slideshow -->
-                    <div class="w3-content w3-display-container slidecontainer">
-                        <div class="w3-display-container mySlides">
-                            <img src="http://lorempixel.com/400/350/city" style="width:100%">
-                            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 captionbox">
-                                Slide Caption One
-                            </div>
-                        </div>
-
-                        <div class="w3-display-container mySlides">
-                            <img src="http://lorempixel.com/400/350/city" lorempix style="width:100%">
-                            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 captionbox">
-                                Slide Caption Two!
-                            </div>
-                        </div>
-
-                        <div class="w3-display-container mySlides">
-                            <img src="http://lorempixel.com/400/350/city" style="width:100%">
-                            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 captionbox">
-                                Another Slide with Another Caption!!
-                            </div>
-                        </div>
-                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-                    </div>
-
-                    <!-- modal content -->
-                    <div class="w3-mobile w3-cell-row modalcontainers">
-                        <div class="w3-mobile w3-cell w3-cell projectinfo">
-                            <p class="degree"><span class="highlighttext">Content </span>Motive</p>
-                            <p class="major">Project Sub Heading</p>
-                            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </p>
-                        </div>
-
-                        <div class="w3-mobile w3-cell w3-cell projectdetails">
-                            <p class="date">Project Date <span class="highlighttext">May 2017 </span></p>
-                            <p class="role">Role <span class="highlighttext">Project Manager</span></p>
-                            <p class="skills">Skills: <span class="highlighttext">HTML, CSS, Javascript, PHP</span></p>
-                            <p class="programs">Programs Used: <span class="highlighttext">Wordpress, Adobe Illustrator, Sublime Text Editor</span></p>
-                            <!-- button -->
-                            <div class="w3-mobile buttondiv2">
-                                <div class="w3-mobile button2">
-                                    <p class="buttontext">see it <span class="highlighttext">live</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+<?php include 'portfolio.php'; ?>
+   
     <!-- heading three -->
-    <div class="w3-mobile" id="experience">
+    <div class="w3-mobile">
         <div class="w3-mobile sayingcontainer">
-            <p class="headertext">work <span class="highlighttext">experience</span></p>
+            <h1>work <span class="highlighttext">experience</span></h1>
         </div>
     </div>
 
@@ -166,16 +88,16 @@
     </div>
 
     <!-- technology break -->
-    <div class="w3-mobile technology" id="tech">
-        <p class="headertext">technology<span class="highlighttext"> snapshot</span></p>
+    <div class="w3-mobile technology">
+        <h1>technology<span class="highlighttext"> snapshot</span></h1>
         <p class="techtext">MS Office/Excel | PHP | SQL | WordPress | CSS | LESS | Bootstrap | JavaScript | jQuery | AJAX | Adobe Photoshop, Acrobat Pro, InDesign | Crystal Reports | Yii2 | D3.js | Vue.js
             <br><br> Quickly learns programs or systems</p>
     </div>
 
     <!-- heading four -->
-    <div class="w3-mobile" id="education">
+    <div class="w3-mobile">
         <div class="w3-mobile sayingcontainer">
-            <p class="headertext">education & <span class="highlighttext">credentials</span></p>
+            <h1>education & <span class="highlighttext">credentials</span></h1>
         </div>
     </div>
 
@@ -203,9 +125,9 @@
     </div>
 
     <!-- heading five -->
-    <div class="w3-mobile" id="education">
+    <div class="w3-mobile">
         <div class="w3-mobile sayingcontainer">
-            <p class="headertext">get in <span class="highlighttext">touch</span></p>
+            <h1>get in <span class="highlighttext">touch</span></h1>
         </div>
     </div>
 
@@ -232,7 +154,8 @@
     </div>
 </div>
 
-<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="semantic/dist/semantic.min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

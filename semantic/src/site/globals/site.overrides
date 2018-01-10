@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+html {
+    overflow-y: hidden;
+}
+
+body.scrolling.dimmable.dimmed, body.dimmable.dimmed {
+    overflow-y: scroll;
+}

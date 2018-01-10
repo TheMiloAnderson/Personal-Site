@@ -1,0 +1,25 @@
+{
+  "name": "miloanderson.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-ui": "^2.2.13"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^3.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMiloAnderson/Personal-Site.git"
+  },
+  "author": "Milo Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMiloAnderson/Personal-Site/issues"
+  },
+  "homepage": "https://github.com/TheMiloAnderson/Personal-Site#readme"
+}

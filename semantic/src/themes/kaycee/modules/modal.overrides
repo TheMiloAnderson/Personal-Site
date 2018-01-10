@@ -1,0 +1,7 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.modal .image.content {
+    flex-direction: column;
+}

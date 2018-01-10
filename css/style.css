@@ -1,16 +1,26 @@
+html {
+    overflow-y: hidden;
+}
+
+body.scrolling.dimmable.dimmed, body.dimmable.dimmed {
+    overflow-y: scroll;
+}
+
 .article {
     display: inline-block;
     vertical-align: top;
     position: relative;
     color: white;
-    height: 35%;
+    height: 200px;
     width: 24%;
 }
 
-.image {
-    background-image: url(http://www.chunkywhale.com/wp-content/uploads/2017/11/projectone.jpg);
+div[data-modal="project1"] {
+    background-image: url(../img/dash-thumb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
-
 
 .overlay {
     position: relative;
@@ -83,6 +93,7 @@
     background-color: #383838;
     font-size: 1.75em;
     color: #fff;
+    margin-bottom: 1em;
 }
 
 .button2:hover {
@@ -225,11 +236,11 @@ body {
     width: 24.8%;
     display: inline-block;
 }
-
+/*
 .educationcontainers {
     padding: 0em;
 }
-
+*/
 .degree {
     color: #d4d4d4;
     font-size: 1.5em;
